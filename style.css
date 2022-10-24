@@ -1,5 +1,6 @@
 body {
     background-color: aquamarine;
+    display: flex;
 }
 .container {
     --grid: 16;
@@ -12,6 +13,7 @@ body {
     margin: 0 auto;
     background-color: white;
     border:  5px solid gray;
+    flex: auto;
 }
 .grid {
     width: auto;
@@ -19,4 +21,24 @@ body {
 }
 .mouseOn {
     background-color: black;
+}
+#buttons {
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+}
+.btn {
+    color: cornsilk;
+    background-color: chocolate;
+    padding: 10px;
+    border: none;
+    margin-bottom: 20px;
+    font-size: 24px;
+    border-radius: 15px;
+}
+p {
+    background-color: white;
+    border: 1px solid black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
 }
