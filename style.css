@@ -1,0 +1,22 @@
+body {
+    background-color: aquamarine;
+}
+.container {
+    --grid: 16;
+    display: grid;
+    grid-template-columns: repeat(var(--grid), 1fr);
+    grid-template-rows: repeat(var(--grid), 1fr);
+    max-width: 800px;
+    height: 720px;
+    max-height: 100%;
+    margin: 0 auto;
+    background-color: white;
+    border:  5px solid gray;
+}
+.grid {
+    width: auto;
+    height: auto;
+}
+.mouseOn {
+    background-color: black;
+}
